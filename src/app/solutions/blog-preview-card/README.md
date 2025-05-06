@@ -14,7 +14,7 @@ Frontend Mentor challenges help you improve your front-end skills by building re
 ## 🔗 Links
 
 - [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-html-css-clamp-and-local-fonts-NlR1mhHfNW)
-- [Live Site on Vercel](https://blog-preview-card-orpin-two.vercel.app/)
+- [Live Site on Vercel](https://fem-projects-hub.vercel.app/blog-preview-card)
 
 ---
 

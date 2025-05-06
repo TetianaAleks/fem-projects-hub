@@ -106,7 +106,8 @@ export class SolutionListComponent {
       link: "/blog-preview-card",
       linkFM:
         "https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-html-css-clamp-and-local-fonts-NlR1mhHfNW",
-      linkGitHub: "",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/blog-preview-card",
       stack: ["html", "css"],
     },
     {
