@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 600 700;
+  src: url("../../../assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf")
+    format("woff2");
+}
 
 :host {
   font-size: 10px;

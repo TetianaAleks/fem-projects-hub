@@ -58,7 +58,8 @@ export class SolutionListComponent {
       link: "/testimonials-grid-section",
       linkFM:
         "https://www.frontendmentor.io/solutions/testimonials-grid-section-css-grid-and-bem-practice-9UcJzQRGUe",
-      linkGitHub: "",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/testimonials-grid-section",
       stack: ["html", "scss"],
     },
     {
@@ -70,7 +71,8 @@ export class SolutionListComponent {
       link: "/four-card-feature-section",
       linkFM:
         "https://www.frontendmentor.io/solutions/solution-title-include-some-of-the-tools-and-techniques-you-used-to-c-nUF_1kH0gr",
-      linkGitHub: "",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/four-card-feature-section",
       stack: ["html", "scss"],
     },
     {
@@ -82,7 +84,8 @@ export class SolutionListComponent {
       link: "/recipe-page",
       linkFM:
         "https://www.frontendmentor.io/solutions/recipe-page-semantic-html-css-custom-properties-and-accessible-tables-xk02taac2w",
-      linkGitHub: "",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/recipe-page",
       stack: ["html", "css"],
     },
     {
@@ -94,7 +97,8 @@ export class SolutionListComponent {
       link: "/social-links-profile",
       linkFM:
         "https://www.frontendmentor.io/solutions/responsive-social-links-card-with-semantic-html-rem-units-and-css-varia-Cwauw2jcPG",
-      linkGitHub: "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/social-links-profile",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/social-links-profile",
       stack: ["html", "css"],
     },
     {
@@ -119,7 +123,8 @@ export class SolutionListComponent {
       link: "/qr-code-component",
       linkFM:
         "https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-7O_PI0fTOw",
-      linkGitHub: "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/qr-code-component",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/qr-code-component",
       stack: ["html", "css"],
     },
   ];

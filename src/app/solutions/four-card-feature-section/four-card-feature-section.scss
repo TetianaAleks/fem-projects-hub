@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200 400 600;
+  src: url("../../../assets/fonts/poppins/Poppins-Regular.ttf") format("woff2");
+}
+
 $font-color-red: hsl(0, 78%, 62%);
 $font-color-cyan: hsl(180, 62%, 55%);
 $font-color-orange: hsl(34, 97%, 64%);
@@ -25,6 +32,10 @@ $font-size: 1.5em;
   font-family: $font-family;
   color: $font-color-grey500;
   font-weight: $font-weight400;
+}
+
+app-footer-solution {
+  width: 100%;
 }
 
 header {
@@ -118,11 +129,17 @@ header {
 }
 
 @media (min-width: 1024px) {
-  .wrapper {
+  :host {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    justify-content: center;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   header {
     width: 50%;

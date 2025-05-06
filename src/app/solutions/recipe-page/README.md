@@ -9,7 +9,7 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 ## 🔗 Links
 
 - [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/recipe-page-semantic-html-css-custom-properties-and-accessible-tables-xk02taac2w)  
-- [Live Site on Vercel](https://recipe-page-main-sepia-seven.vercel.app/)
+- [Live Site on Vercel](https://fem-projects-hub.vercel.app/recipe-page)
 
 ## 🛠️ Built With
 

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+  font-weight: 500 600;
+  src: url("../../../assets/fonts/barlow-semi-condensed/BarlowSemiCondensed-Regular.ttf")
+    format("woff2");
+}
+
 $font-purple50: hsl(260, 100%, 95%);
 $font-purple300: hsl(264, 82%, 80%);
 $font-purple500: hsl(263, 55%, 52%);
@@ -29,6 +37,10 @@ $font-size: 1.3em;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+app-footer-solution {
+  width: 100%;
 }
 
 .cards {
@@ -87,21 +99,21 @@ $font-size: 1.3em;
     .card__content {
       display: flex;
       flex-direction: column;
-      gap: 2em;
+      gap: 1.8em;
 
       z-index: 2;
       h1 {
-        font-size: 1.6em;
+        font-size: 2em;
         margin-block-start: 0;
         margin-block-end: 0;
-        line-height: 150%;
+        line-height: 120%;
       }
       blockquote {
         margin-block-start: 0;
         margin-block-end: 0;
         margin-inline-start: 0;
         margin-inline-end: 0;
-        font-size: 1.2em;
+        font-size: 1.3em;
         line-height: 136%;
       }
     }
@@ -181,12 +193,16 @@ $font-size: 1.3em;
 }
 
 @media (min-width: 1200px) {
+  app-footer-solution {
+    position: absolute;
+    bottom: 0;
+  }
   .cards {
     margin-top: 10em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
-    gap: 1em 3.75em;
+    gap: 2em 3.75em;
     .card {
       .card__quote {
         display: block;

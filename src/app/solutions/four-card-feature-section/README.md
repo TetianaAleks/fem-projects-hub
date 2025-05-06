@@ -9,7 +9,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 ## 🔗 Links
 
 - [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/solution-title-include-some-of-the-tools-and-techniques-you-used-to-c-nUF_1kH0gr)
-- [Live Site on Vercel](https://four-card-feature-section-seven-rosy.vercel.app/)
+- [Live Site on Vercel](https://fem-projects-hub.vercel.app/four-card-feature-section)
 
 ## 🛠️ Built With
 

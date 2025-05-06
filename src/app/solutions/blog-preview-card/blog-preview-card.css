@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500 800;
+  src: url("../../../assets/fonts/figtree/Figtree-VariableFont_wght.ttf")
+    format("woff2");
+}
+
 :host {
   font-size: 10px;
   display: flex;

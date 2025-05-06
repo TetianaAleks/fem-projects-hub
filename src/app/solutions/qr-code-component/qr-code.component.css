@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400 700;
+  src: url("../../../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("woff2");
+}
+
 :host {
   font-size: 10px;
   display: flex;

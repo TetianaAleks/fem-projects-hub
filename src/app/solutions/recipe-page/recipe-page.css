@@ -1,8 +1,25 @@
+@font-face {
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400 600 700;
+  src: url("../../../assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("woff2");
+}
+
 :host {
   font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 
   --color-white: hsl(0, 0%, 100%);
 
@@ -30,6 +47,10 @@
   color: var(--color-stone900);
 }
 
+app-footer-solution {
+  width: 100%;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -39,7 +60,7 @@
   border-radius: 2em;
 
   margin-top: 12.3em;
-  margin-bottom: 12em;
+  margin-bottom: 5em;
   padding-bottom: 2.6em;
 
   line-height: 1.5;

@@ -9,7 +9,7 @@ This is a solution to the [Testimonials Grid Section challenge on Frontend Mento
 ## 🔗 Links
 
 - [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/testimonials-grid-section-css-grid-and-bem-practice-9UcJzQRGUe)  
-- [Live Site on Vercel](https://testimonials-grid-section-omega-one.vercel.app/)
+- [Live Site on Vercel](https://fem-projects-hub.vercel.app/testimonials-grid-section)
 
 ## 🛠️ Built With
 
