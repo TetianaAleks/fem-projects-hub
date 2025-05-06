@@ -1,0 +1,78 @@
+<section class="bg-gray-50 dark:bg-gray-900 pt-24 pb-24 sm:pt-32 sm:pb-32">
+  <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+    <div [@fadeIn] class="text-center">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white">
+        Frontend Mentor Solutions
+      </h2>
+      <p class="mt-4 text-gray-600 dark:text-gray-300">
+        A collection of my completed challenges from Frontend Mentor — a
+        platform that offers real-world projects to sharpen frontend development
+        skills. Each solution reflects attention to detail, responsive design,
+        and clean code, helping me grow as a developer and build user-centric
+        interfaces.
+      </p>
+    </div>
+
+    <div
+      [@listAnimation]
+      class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3"
+    >
+      <div
+        *ngFor="let solution of solutionList; let i = index"
+        class="project-card group rounded-md bg-white dark:bg-gray-800 p-6 shadow-sm transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg"
+      >
+        <div class="overflow-hidden rounded-md">
+          <img
+            [src]="solution.img"
+            [alt]="solution.name"
+            class="w-full h-48 object-contain transition-transform duration-500 group-hover:scale-105"
+          />-
+        </div>
+
+        <h3 class="mt-4 text-lg font-semibold text-gray-900 dark:text-white">
+          {{ solution.name }}
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">
+          {{ solution.description }}
+        </p>
+
+        <div class="mt-4 flex flex-wrap gap-2">
+          <span
+            *ngFor="let tech of solution.stack"
+            class="inline-block rounded bg-teal-100 dark:bg-teal-700 px-2 py-1 text-xs font-medium text-teal-800 dark:text-white"
+          >
+            {{ tech }}
+          </span>
+        </div>
+
+        <div class="mt-6 flex gap-4">
+          <a
+            [href]="solution.link"
+            target="_blank"
+            rel="noreferrer"
+            class="text-sm font-semibold text-teal-600 hover:text-teal-500"
+          >
+            Live Demo
+          </a>
+          <a
+            [href]="solution.linkFM"
+            target="_blank"
+            rel="noreferrer"
+            class="text-sm font-semibold text-teal-600 hover:text-teal-500"
+          >
+            FM Page
+          </a>
+          <a
+            [href]="solution.linkGitHub"
+            target="_blank"
+            rel="noreferrer"
+            class="text-sm font-semibold text-teal-600 hover:text-teal-500"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

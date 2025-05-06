@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+
+:host {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-stone100: hsl(30, 54%, 90%);
+  --color-stone150: hsl(30, 18%, 87%);
+  --color-stone600: hsl(30, 10%, 34%);
+  --color-stone900: hsl(24, 5%, 18%);
+
+  --color-brown800: hsl(14, 45%, 36%);
+
+  --color-rose800: hsl(332, 51%, 32%);
+  --color-rose50: hsl(330, 100%, 98%);
+
+  --font-size-sm: 1.2em;
+  --font-size-base: 1.6em;
+  --font-size-lg: 2.4em;
+
+  --font-young: "Young Serif", serif;
+  --font-outfit: "Outfit", sans-serif;
+
+  font-family: var(--font-outfit);
+  font-weight: 400;
+  background-color: var(--color-stone100);
+  line-height: 1.5;
+  color: var(--color-stone900);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+  width: 73.6em;
+  padding: 4em;
+  border-radius: 2em;
+
+  margin-top: 12.3em;
+  margin-bottom: 12em;
+  padding-bottom: 2.6em;
+
+  line-height: 1.5;
+  font-family: var(--font-outfit);
+}
+
+.card__image {
+  width: 65.6em;
+  height: 30em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  margin-top: 3.2em;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: var(--font-young);
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.card__description {
+  font-size: var(--font-size-base);
+  color: var(--color-stone600);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.preparation {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-rose50);
+  border-radius: 1em;
+  padding: 2.5em 2.8em;
+  gap: 1.2em;
+  margin-top: 3em;
+}
+
+.preparation span {
+  font-size: 2em;
+  color: var(--color-rose800);
+  font-weight: 600;
+}
+
+.preparation__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+.preparation__list li::before {
+  content: "•";
+  color: var(--color-rose800);
+  font-weight: bold;
+  position: absolute;
+  width: 3.2em;
+  left: 0.4em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.preparation__list li {
+  font-size: var(--font-size-base);
+  position: relative;
+  list-style: none;
+  padding-left: 2.4em;
+}
+.preparation__list li strong {
+  color: var(--color-stone600);
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7em;
+  margin-top: 2.8em;
+}
+h2 {
+  font-size: 2.8em;
+  font-family: var(--font-young);
+  color: var(--color-brown800);
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.ingredients__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  padding: 0;
+  color: var(--color-brown800);
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+.ingredients__list li::before {
+  content: "•";
+  color: var(--color-brown800);
+  font-weight: bold;
+  position: absolute;
+  width: 3.2em;
+  left: 0.4em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.ingredients__list li {
+  font-size: var(--font-size-base);
+  color: var(--color-stone600);
+  position: relative;
+  list-style: none;
+  padding-left: 2.5em;
+}
+
+.hr {
+  border: none;
+  border-top: 0.2em solid var(--color-stone150);
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-top: 3em;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--font-size-base);
+  margin-top: 2.6em;
+}
+
+.instructions__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  padding: 0 0.9em;
+  counter-reset: step;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+.instructions__list li {
+  font-size: var(--font-size-base);
+  color: var(--color-stone600);
+  position: relative;
+  padding-left: 2.5em;
+  list-style: none;
+}
+
+.instructions__list li::before {
+  counter-increment: step;
+  content: counter(step) ".";
+  position: absolute;
+  left: 0.5em;
+  font-weight: bold;
+  width: 2.4em;
+  color: var(--color-brown800);
+}
+
+.nutrition {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7em;
+  margin-top: 2.6em;
+}
+.nutrition__description {
+  font-size: var(--font-size-base);
+  color: var(--color-stone600);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.nutrition__table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.nutrition__table tr {
+  border-bottom: 0.1em solid var(--color-stone150);
+  font-size: var(--font-size-base);
+}
+
+.nutrition__table tr:last-child {
+  border-bottom: none;
+}
+
+.nutrition__table td {
+  padding-left: 2em;
+  padding-top: 0.4em;
+  padding-bottom: 1em;
+}
+
+.nutrition__table .label {
+  width: 46.5%;
+  color: var(--color-stone600);
+}
+
+.nutrition__table .value {
+  text-align: left;
+  color: var(--color-brown800);
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 3em;
+    margin-bottom: 0;
+  }
+  .card__image {
+    width: 100%;
+    height: 17em;
+    border-radius: 0;
+  }
+  .card__header,
+  .preparation,
+  .ingredients,
+  .instructions,
+  .nutrition,
+  .hr {
+    margin: 0 3.2em;
+  }
+  h1 {
+    line-height: 104%;
+    font-size: 3.6em;
+  }
+  .card__header {
+    gap: 2.2em;
+    margin-top: 4em;
+  }
+  .preparation {
+    margin-top: 3em;
+    padding: 2.1em 2.4em;
+  }
+  .preparation__list {
+    width: 80%;
+  }
+  .preparation__list li {
+    padding-left: 2.5em;
+  }
+  .ingredients {
+    margin-top: 2.8em;
+  }
+  .hr {
+    margin-top: 3em;
+  }
+  .instructions {
+    margin-top: 2.5em;
+  }
+  .nutrition {
+    margin-top: 2.6em;
+  }
+  .nutrition__table td {
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.9em;
+  }
+  .nutrition__table .label {
+    width: 42.5%;
+  }
+}

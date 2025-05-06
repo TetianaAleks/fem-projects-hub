@@ -1,0 +1,28 @@
+<main>
+  <router-outlet></router-outlet>
+</main>
+<footer [class.dark]="isDark">
+  <a [routerLink]="['/']" class="logo__link">
+    <img
+      class="brand-logo"
+      src="assets/favicon-32x32.png"
+      alt="logo"
+      aria-hidden="true"
+    />
+  </a>
+  <p>
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+      Frontend Mentor </a
+    >.
+  </p>
+  <p>
+    Coded by
+    <a
+      href="https://www.frontendmentor.io/profile/TetianaAleks"
+      target="_blank"
+    >
+      Tetiana </a
+    >.
+  </p>
+</footer>

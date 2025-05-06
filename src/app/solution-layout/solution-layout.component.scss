@@ -1,0 +1,39 @@
+:host {
+  font-size: 62.5%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 0.7em 0;
+  gap: 0.3em;
+  color: #6a7282;
+  background-color: white;
+  border-top: 0.1em solid oklch(60% 0.118 184.704);
+
+  .logo__link {
+    border-radius: 50%;
+    border: 0.1em solid oklch(60% 0.118 184.704);
+  }
+  a {
+    color: oklch(60% 0.118 184.704);
+    font-weight: 600;
+  }
+
+  &.dark {
+    background-color: #101828;
+    color: white;
+
+    .logo__link {
+      border-color: #101828;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+}

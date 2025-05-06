@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:host {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+
+  --color-green: hsl(75, 94%, 57%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-gray700: hsl(0, 0%, 20%);
+  --color-gray800: hsl(0, 0%, 12%);
+  --color-gray900: hsl(0, 0%, 8%);
+
+  --font-size-sm: 1.2em;
+  --font-size-base: 1.4em;
+  --font-size-lg: 2.4em;
+
+  background-color: var(--color-gray900);
+  line-height: 1.5;
+}
+
+.card {
+  width: 38.4em;
+  background-color: var(--color-gray800);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 1em;
+  padding: 4em;
+  gap: 2.3em;
+}
+
+.card__img {
+  width: 9em;
+  height: 9em;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  align-items: center;
+}
+
+.card__title {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: var(--font-size-lg);
+}
+
+.card__subtitle {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: var(--color-green);
+  font-weight: 600;
+  font-size: var(--font-size-base);
+}
+
+.card__quote {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  text-align: center;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.card__social_links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  gap: 1.6em;
+}
+
+.card__link {
+  background-color: var(--color-gray700);
+  color: var(--color-white);
+  width: 100%;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  transition: color 400ms ease, background-color 400ms ease;
+  text-decoration: none;
+  border-radius: 0.6em;
+  padding: 0.9em 2em;
+}
+.card__link:hover,
+.card__link:focus {
+  background-color: var(--color-green);
+  color: var(--color-gray700);
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  :host {
+    height: 102vh;
+  }
+  .card {
+    width: 32.8em;
+    padding: 2.5em;
+  }
+}

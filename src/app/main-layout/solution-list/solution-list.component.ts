@@ -1,0 +1,125 @@
+import { Component, Input } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { Solution } from "src/app/interfaces/solution";
+import { RouterModule } from "@angular/router";
+import {
+  trigger,
+  transition,
+  style,
+  animate,
+  query,
+  stagger,
+} from "@angular/animations";
+
+@Component({
+  selector: "app-solution-list",
+  imports: [CommonModule, RouterModule],
+  templateUrl: "./solution-list.component.html",
+  styleUrl: "./solution-list.component.css",
+  animations: [
+    trigger("fadeIn", [
+      transition(":enter", [
+        style({ opacity: 0, transform: "translateY(30px)" }),
+        animate(
+          "800ms ease-out",
+          style({ opacity: 1, transform: "translateY(0)" })
+        ),
+      ]),
+    ]),
+    trigger("listAnimation", [
+      transition(":enter", [
+        query(
+          ".project-card",
+          [
+            style({ opacity: 0, transform: "translateY(30px)" }),
+            stagger(200, [
+              animate(
+                "800ms ease-out",
+                style({ opacity: 1, transform: "translateY(0)" })
+              ),
+            ]),
+          ],
+          { optional: true }
+        ),
+      ]),
+    ]),
+  ],
+})
+export class SolutionListComponent {
+  /*@Input() solutions!: Solution[];*/
+
+  solutionList: Solution[] = [
+    {
+      id: 6,
+      name: "Testimonials grid section",
+      description:
+        "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+      img: "assets/testimonials-grid-section/preview.png",
+      link: "/testimonials-grid-section",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/testimonials-grid-section-css-grid-and-bem-practice-9UcJzQRGUe",
+      linkGitHub: "",
+      stack: ["html", "scss"],
+    },
+    {
+      id: 5,
+      name: "Four card feature section",
+      description:
+        "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
+      img: "assets/four-card-feature-section/preview.png",
+      link: "/four-card-feature-section",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/solution-title-include-some-of-the-tools-and-techniques-you-used-to-c-nUF_1kH0gr",
+      linkGitHub: "",
+      stack: ["html", "scss"],
+    },
+    {
+      id: 4,
+      name: "Recipe page",
+      description:
+        "This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content.",
+      img: "assets/recipe-page/preview.png",
+      link: "/recipe-page",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/recipe-page-semantic-html-css-custom-properties-and-accessible-tables-xk02taac2w",
+      linkGitHub: "",
+      stack: ["html", "css"],
+    },
+    {
+      id: 3,
+      name: "Social links profile",
+      description:
+        "In this small project, you'll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!",
+      img: "assets/social-links-profile/preview.png",
+      link: "/social-links-profile",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/responsive-social-links-card-with-semantic-html-rem-units-and-css-varia-Cwauw2jcPG",
+      linkGitHub: "",
+      stack: ["html", "css"],
+    },
+    {
+      id: 2,
+      name: "Blog preview card",
+      description:
+        "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+      img: "assets/blog-preview-card/preview.png",
+      link: "/blog-preview-card",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-html-css-clamp-and-local-fonts-NlR1mhHfNW",
+      linkGitHub: "",
+      stack: ["html", "css"],
+    },
+    {
+      id: 1,
+      name: "QR code component",
+      description:
+        "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+      img: "assets/qr-code.component/preview.png",
+      link: "/qr-code-component",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-7O_PI0fTOw",
+      linkGitHub: "",
+      stack: ["html", "css"],
+    },
+  ];
+}
