@@ -10,7 +10,7 @@ This is a solution to the [Social Links Profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [Live Site on Vercel](https://social-links-profile-omega-seven.vercel.app/)
+- Live Site URL: [Live Site on Vercel](https://fem-projects-hub.vercel.app/social-links-profile)
 - Solution on Frontend Mentor: [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-social-links-card-with-semantic-html-rem-units-and-css-varia-Cwauw2jcPG)
 
 ## 🔧 Built With

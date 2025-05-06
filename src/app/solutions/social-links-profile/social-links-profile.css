@@ -5,7 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120vh;
+  flex-direction: column;
+  height: 100vh;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 
@@ -22,6 +23,12 @@
 
   background-color: var(--color-gray900);
   line-height: 1.5;
+}
+
+app-footer-solution {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .card {
@@ -113,9 +120,6 @@
 }
 
 @media (max-width: 768px) {
-  :host {
-    height: 102vh;
-  }
   .card {
     width: 32.8em;
     padding: 2.5em;
