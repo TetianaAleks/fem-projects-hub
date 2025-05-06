@@ -118,7 +118,7 @@ export class SolutionListComponent {
       link: "/qr-code-component",
       linkFM:
         "https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-7O_PI0fTOw",
-      linkGitHub: "",
+      linkGitHub: "https://fem-projects-hub.vercel.app/qr-code-component",
       stack: ["html", "css"],
     },
   ];

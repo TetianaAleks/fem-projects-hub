@@ -14,7 +14,7 @@ Frontend Mentor challenges help you improve your front-end skills by building re
 ## 🔗 Links
 
 - [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-7O_PI0fTOw)  
-- [Live Site on Vercel](https://qr-code-component-delta-seven.vercel.app/)
+- [Live Site on Vercel](https://fem-projects-hub.vercel.app/qr-code-component)
 
 ---
 
