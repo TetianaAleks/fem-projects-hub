@@ -50,6 +50,17 @@ export class SolutionListComponent {
 
   solutionList: Solution[] = [
     {
+      id: 7,
+      name: "Product preview card component",
+      description:
+        "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
+      img: "assets/product-preview-card/preview.png",
+      link: "/product-preview-card",
+      linkFM: "",
+      linkGitHub: "",
+      stack: ["html", "scss"],
+    },
+    {
       id: 6,
       name: "Testimonials grid section",
       description:

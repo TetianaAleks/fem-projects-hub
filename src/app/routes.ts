@@ -9,6 +9,7 @@ import { RecipePageComponent } from "./solutions/recipe-page/recipe-page";
 import { SolutionListComponent } from "./main-layout/solution-list/solution-list.component";
 import { FourCardFeatureSectionComponent } from "./solutions/four-card-feature-section/four-card-feature-section";
 import { TestimonialsGridSectionComponent } from "./solutions/testimonials-grid-section/testimonials-grid-section";
+import { ProductPreviewCardComponent } from "./solutions/product-preview-card/product-preview-card";
 
 const routeConfig: Routes = [
   {
@@ -60,6 +61,11 @@ const routeConfig: Routes = [
         path: "testimonials-grid-section",
         component: TestimonialsGridSectionComponent,
         title: "Testimonials grid section",
+      },
+      {
+        path: "product-preview-card",
+        component: ProductPreviewCardComponent,
+        title: "Product preview card component",
       },
     ],
   },

@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500 700;
+  src: url("../../../assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
+    format("woff2");
+}
+
+$font-body: "Montserrat", sans-serif;
+$font-heading: "Fraunces", serif;
+
+$font-weight500: 500;
+$font-weight700: 700;
+
+$font-color-green500: hsl(158, 36%, 37%);
+$font-color-green700: hsl(158, 42%, 18%);
+
+$font-color-black: hsl(212, 21%, 14%);
+$font-color-grey: hsl(228, 12%, 48%);
+$font-color-cream: hsl(30, 38%, 92%);
+$font-color-white: hsl(0, 0%, 100%);
+
+:host {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1em;
+  min-height: 100vh;
+
+  background: $font-color-cream;
+  font-family: $font-body;
+  color: $font-color-black;
+  font-weight: $font-weight500;
+}
+
+app-footer-solution {
+  width: 100%;
+}
+
+.card {
+  border-radius: 1em;
+  width: 30em;
+  background-color: $font-color-white;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: width 0.3s ease-in-out;
+  margin-top: 3em;
+
+  .card__image {
+    width: 100%;
+    height: 24em;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2.5em;
+    gap: 2em;
+    justify-content: space-between;
+
+    .card__type {
+      font-size: 1em;
+      text-transform: uppercase;
+      color: $font-color-grey;
+      letter-spacing: 0.7em;
+    }
+
+    .card__header {
+      display: flex;
+      flex-direction: column;
+      gap: 1.6em;
+    }
+
+    h1 {
+      font-family: $font-heading;
+      font-weight: $font-weight700;
+      font-size: 3.2em;
+      line-height: 1;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+
+    .card__description {
+      color: $font-color-grey;
+      font-size: 1.4em;
+      line-height: 1.6;
+
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+
+    .card__price {
+      display: flex;
+      align-items: center;
+      gap: 1.6em;
+
+      .card__actual-price {
+        font-size: 3.2em;
+        color: $font-color-green500;
+        font-weight: $font-weight700;
+        font-family: $font-heading;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+
+      .card__old-price {
+        font-size: 1.4em;
+        color: $font-color-grey;
+        text-decoration: line-through;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+    }
+    .card__btn {
+      width: 100%;
+      background-color: $font-color-green500;
+      color: $font-color-white;
+      border: none;
+      border-radius: 1em;
+      padding: 1.2em 1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.1em;
+      font-size: 1.2em;
+      font-weight: $font-weight700;
+      letter-spacing: 0.1em;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $font-color-green700;
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .card {
+    width: 34em;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    margin-top: 17.5em;
+    width: 60em;
+    height: 45em;
+    .card__image {
+      width: 50%;
+    }
+    .card__content {
+      width: 50%;
+      padding: 3.1em 3.1em;
+      .card__header {
+        gap: 2.1em;
+        h1 {
+          line-height: 106%;
+        }
+      }
+    }
+  }
+}
