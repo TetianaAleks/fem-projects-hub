@@ -56,8 +56,8 @@ export class SolutionListComponent {
         "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
       img: "assets/product-preview-card/preview.png",
       link: "/product-preview-card",
-      linkFM: "",
-      linkGitHub: "",
+      linkFM: "https://www.frontendmentor.io/solutions/product-preview-card-html5-scss-flexbox-oJUKnH03kG",
+      linkGitHub: "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/product-preview-card",
       stack: ["html", "scss"],
     },
     {

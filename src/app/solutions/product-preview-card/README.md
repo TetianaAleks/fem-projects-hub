@@ -8,7 +8,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## 🔗 Links
 
-- [Solution on Frontend Mentor]()
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-html5-scss-flexbox-oJUKnH03kG)
 - [Live Site on Vercel](https://fem-projects-hub.vercel.app/product-preview-card)
 
 ## 🔧 Built with
