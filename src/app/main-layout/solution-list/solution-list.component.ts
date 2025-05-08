@@ -56,8 +56,8 @@ export class SolutionListComponent {
         "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
       img: "assets/newsletter-sign-up/preview.png",
       link: "/newsletter-sign-up",
-      linkFM: "",
-      linkGitHub: "",
+      linkFM: "https://www.frontendmentor.io/solutions/responsive-newsletter-form-with-validation-and-success-message-7ym3SJcOS7",
+      linkGitHub: "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/newsletter-sign-up",
       stack: ["html", "scss", "ts"],
     },
     {

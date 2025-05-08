@@ -8,7 +8,7 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ## 🔗 Links
 
-- [Solution on Frontend Mentor]()
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-newsletter-form-with-validation-and-success-message-7ym3SJcOS7)
 - [Live Site on Vercel](https://fem-projects-hub.vercel.app/newsletter-sign-up)
 
 ## 🛠️ Built With
