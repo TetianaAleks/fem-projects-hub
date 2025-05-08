@@ -9,7 +9,7 @@ This is a solution to the [Article зreview сomponent challenge on Frontend Men
 
 ## 🔗 Links
 
-- [Solution on Frontend Mentor]()
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-with-scss-styling-and-share-animation-YZHQS8EFQN)
 - [Live Site on Vercel](https://fem-projects-hub.vercel.app/article-preview-component)
 
 ## 🛠️ Built With

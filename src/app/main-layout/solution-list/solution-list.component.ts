@@ -56,8 +56,8 @@ export class SolutionListComponent {
         "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.",
       img: "assets/article-preview-component/preview.png",
       link: "/article-preview-component",
-      linkFM: "",
-      linkGitHub: "",
+      linkFM: "https://www.frontendmentor.io/solutions/article-preview-component-with-scss-styling-and-share-animation-YZHQS8EFQN",
+      linkGitHub: "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/article-preview-component",
       stack: ["html", "scss", "js"],
     },
     {
