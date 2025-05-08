@@ -10,6 +10,7 @@ import { SolutionListComponent } from "./main-layout/solution-list/solution-list
 import { FourCardFeatureSectionComponent } from "./solutions/four-card-feature-section/four-card-feature-section";
 import { TestimonialsGridSectionComponent } from "./solutions/testimonials-grid-section/testimonials-grid-section";
 import { ProductPreviewCardComponent } from "./solutions/product-preview-card/product-preview-card";
+import { ArticlePpreviewComponent } from "./solutions/article-preview-component/article-preview-component";
 
 const routeConfig: Routes = [
   {
@@ -66,6 +67,11 @@ const routeConfig: Routes = [
         path: "product-preview-card",
         component: ProductPreviewCardComponent,
         title: "Product preview card component",
+      },
+      {
+        path: "article-preview-component",
+        component: ArticlePpreviewComponent,
+        title: "Article preview component",
       },
     ],
   },

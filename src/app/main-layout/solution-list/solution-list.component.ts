@@ -50,14 +50,27 @@ export class SolutionListComponent {
 
   solutionList: Solution[] = [
     {
+      id: 8,
+      name: "Article preview component",
+      description:
+        "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.",
+      img: "assets/article-preview-component/preview.png",
+      link: "/article-preview-component",
+      linkFM: "",
+      linkGitHub: "",
+      stack: ["html", "scss", "js"],
+    },
+    {
       id: 7,
       name: "Product preview card component",
       description:
         "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
       img: "assets/product-preview-card/preview.png",
       link: "/product-preview-card",
-      linkFM: "https://www.frontendmentor.io/solutions/product-preview-card-html5-scss-flexbox-oJUKnH03kG",
-      linkGitHub: "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/product-preview-card",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/product-preview-card-html5-scss-flexbox-oJUKnH03kG",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/product-preview-card",
       stack: ["html", "scss"],
     },
     {
