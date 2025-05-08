@@ -1,7 +1,7 @@
 # Frontend Mentor - Article Preview Component
 
 
-This is a solution to the [Article зreview сomponent challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT).
+This is a solution to the [Article preview сomponent challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT).
 
 ## 📸 Screenshot
 
