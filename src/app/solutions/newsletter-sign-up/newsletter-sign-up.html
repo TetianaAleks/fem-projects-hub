@@ -1,0 +1,81 @@
+<main>
+  <article class="newsletter" *ngIf="!isShowThanks">
+    <div class="newsletters__image">
+      <picture>
+        <source
+          media="(min-width: 930px)"
+          srcset="assets/newsletter-sign-up/illustration-sign-up-desktop.svg"
+        />
+        <source
+          media="(max-width: 929px)"
+          srcset="assets/newsletter-sign-up/illustration-sign-up-mobile.svg"
+        />
+        <img
+          src="assets/newsletter-sign-up/illustration-sign-up-desktop.svg"
+          alt="Gabrielle Essence Eau De Parfum bottle"
+        />
+      </picture>
+    </div>
+    <div class="newsletter__content">
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+      <form
+        [formGroup]="form"
+        (ngSubmit)="onSubmit()"
+        novalidate
+        class="newsletter__form"
+      >
+        <label for="email" class="newsletter__label"
+          >Email address
+          <span *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+            <span
+              class="newsletter__label-error"
+              *ngIf="email?.errors?.['email'] || email?.errors?.['required']"
+            >
+              Valid email required
+            </span>
+          </span></label
+        >
+        <input
+          id="email"
+          type="email"
+          formControlName="email"
+          placeholder="email@company.com"
+          class="newsletter__input"
+        />
+
+        <button
+          type="submit"
+          [disabled]="form.invalid"
+          class="newsletter__button"
+          (click)="onSubmit()"
+        >
+          Subscribe to monthly newsletter
+        </button>
+      </form>
+    </div>
+  </article>
+
+  <article class="newsletter__thanks" *ngIf="isShowThanks">
+    <div class="newsletter__thanks-image">
+      <img src="assets/newsletter-sign-up/icon-success.svg" alt="" />
+    </div>
+    <h1>Thanks for subscribing!</h1>
+    <p>
+      A confirmation email has been sent to <strong>{{ emailString }}</strong>.
+      Please open it and click the button inside to confirm your subscription.
+    </p>
+    <button
+      class="newsletter__thanks-btn newsletter__button"
+      (click)="dismiss()"
+    >
+      Dismiss message
+    </button>
+  </article>
+</main>
+<app-footer-solution></app-footer-solution>

@@ -50,15 +50,28 @@ export class SolutionListComponent {
 
   solutionList: Solution[] = [
     {
+      id: 9,
+      name: "Newsletter sign-up form with success message",
+      description:
+        "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
+      img: "assets/newsletter-sign-up/preview.png",
+      link: "/newsletter-sign-up",
+      linkFM: "",
+      linkGitHub: "",
+      stack: ["html", "scss", "ts"],
+    },
+    {
       id: 8,
       name: "Article preview component",
       description:
         "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.",
       img: "assets/article-preview-component/preview.png",
       link: "/article-preview-component",
-      linkFM: "https://www.frontendmentor.io/solutions/article-preview-component-with-scss-styling-and-share-animation-YZHQS8EFQN",
-      linkGitHub: "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/article-preview-component",
-      stack: ["html", "scss", "js"],
+      linkFM:
+        "https://www.frontendmentor.io/solutions/article-preview-component-with-scss-styling-and-share-animation-YZHQS8EFQN",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/article-preview-component",
+      stack: ["html", "scss", "ts"],
     },
     {
       id: 7,

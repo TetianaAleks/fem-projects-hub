@@ -11,6 +11,7 @@ import { FourCardFeatureSectionComponent } from "./solutions/four-card-feature-s
 import { TestimonialsGridSectionComponent } from "./solutions/testimonials-grid-section/testimonials-grid-section";
 import { ProductPreviewCardComponent } from "./solutions/product-preview-card/product-preview-card";
 import { ArticlePpreviewComponent } from "./solutions/article-preview-component/article-preview-component";
+import { NewsletterSignUpComponent } from "./solutions/newsletter-sign-up/newsletter-sign-up";
 
 const routeConfig: Routes = [
   {
@@ -72,6 +73,11 @@ const routeConfig: Routes = [
         path: "article-preview-component",
         component: ArticlePpreviewComponent,
         title: "Article preview component",
+      },
+      {
+        path: "newsletter-sign-up",
+        component: NewsletterSignUpComponent,
+        title: "Newsletter sign-up form with success message",
       },
     ],
   },
