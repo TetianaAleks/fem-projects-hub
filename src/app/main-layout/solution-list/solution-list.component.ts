@@ -50,6 +50,19 @@ export class SolutionListComponent {
 
   solutionList: Solution[] = [
     {
+      id: 11,
+      name: "Results summary component",
+      description:
+        "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS.",
+      img: "assets/results-summary-component/preview.png",
+      link: "https://tetianaaleks.github.io/fm-solutions-hub/09-results-summary-component/",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/results-summary-component-mLArmaFhfO",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/09-results-summary-component",
+      stack: ["html", "css"],
+    },
+    {
       id: 10,
       name: "NFT preview card component",
       description:
