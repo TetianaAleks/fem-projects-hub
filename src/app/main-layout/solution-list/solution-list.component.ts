@@ -50,14 +50,29 @@ export class SolutionListComponent {
 
   solutionList: Solution[] = [
     {
+      id: 10,
+      name: "NFT preview card component",
+      description:
+        "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
+      img: "assets/nft-preview-card-component/preview.png",
+      link: "https://tetianaaleks.github.io/fm-solutions-hub/08-nft-preview-card-component/",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/nft-preview-card-component-PTFxtGZE4b",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/08-nft-preview-card-component",
+      stack: ["html", "css"],
+    },
+    {
       id: 9,
       name: "Newsletter sign-up form with success message",
       description:
         "This will test your skills with basic form structure, validation, and submission. The success state will also be an excellent opportunity to work with DOM manipulation.",
       img: "assets/newsletter-sign-up/preview.png",
       link: "/newsletter-sign-up",
-      linkFM: "https://www.frontendmentor.io/solutions/responsive-newsletter-form-with-validation-and-success-message-7ym3SJcOS7",
-      linkGitHub: "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/newsletter-sign-up",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/responsive-newsletter-form-with-validation-and-success-message-7ym3SJcOS7",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fem-projects-hub/tree/main/src/app/solutions/newsletter-sign-up",
       stack: ["html", "scss", "ts"],
     },
     {
