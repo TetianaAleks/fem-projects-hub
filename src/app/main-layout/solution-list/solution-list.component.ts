@@ -50,11 +50,50 @@ export class SolutionListComponent {
 
   solutionList: Solution[] = [
     {
+      id: 14,
+      name: "3-column preview card component",
+      description:
+        "This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects.",
+      img: "assets/previews/12-3-column-preview-card-component.png",
+      link: "https://tetianaaleks.github.io/fm-solutions-hub/12-3-column-preview-card-component/",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/3-column-preview-card-component-XI_BZPMTpj",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/12-3-column-preview-card-component",
+      stack: ["html", "css"],
+    },
+    {
+      id: 13,
+      name: "Stats preview card component",
+      description:
+        "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
+      img: "assets/previews/11-stats-preview-card-component.png",
+      link: "https://tetianaaleks.github.io/fm-solutions-hub/11-stats-preview-card-component/",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/stats-preview-card-component-bUfGfERcTN",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/11-stats-preview-card-component",
+      stack: ["html", "css"],
+    },
+    {
+      id: 12,
+      name: "Order summary component",
+      description:
+        "A perfect project for newbies who are starting to build confidence with layouts!",
+      img: "assets/previews/10-order-summary-component.png",
+      link: "https://tetianaaleks.github.io/fm-solutions-hub/10-order-summary-component/",
+      linkFM:
+        "https://www.frontendmentor.io/solutions/order-summary-component-joJnJY4LIF",
+      linkGitHub:
+        "https://github.com/TetianaAleks/fm-solutions-hub/tree/main/10-order-summary-component",
+      stack: ["html", "css"],
+    },
+    {
       id: 11,
       name: "Results summary component",
       description:
         "This challenge has something for everyone. It’s a HTML and CSS only project, but we’ve also provided a JSON file of the test results for anyone wanting to practice JS.",
-      img: "assets/results-summary-component/preview.png",
+      img: "assets/previews/09-results-summary-component.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/09-results-summary-component/",
       linkFM:
         "https://www.frontendmentor.io/solutions/results-summary-component-mLArmaFhfO",
@@ -67,7 +106,7 @@ export class SolutionListComponent {
       name: "NFT preview card component",
       description:
         "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
-      img: "assets/nft-preview-card-component/preview.png",
+      img: "assets/previews/08-nft-preview-card-component.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/08-nft-preview-card-component/",
       linkFM:
         "https://www.frontendmentor.io/solutions/nft-preview-card-component-PTFxtGZE4b",
@@ -106,7 +145,7 @@ export class SolutionListComponent {
       name: "Product preview card component",
       description:
         "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
-      img: "assets/product-preview-card/preview.png",
+      img: "assets/previews/05-product-preview-card-component.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/05-product-preview-card-component/",
       linkFM:
         "https://www.frontendmentor.io/solutions/product-preview-card-html5-scss-flexbox-oJUKnH03kG",
@@ -119,7 +158,7 @@ export class SolutionListComponent {
       name: "Testimonials grid section",
       description:
         "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
-      img: "assets/testimonials-grid-section/preview.png",
+      img: "assets/previews/07-testimonials-grid-section.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/07-testimonials-grid-section/",
       linkFM:
         "https://www.frontendmentor.io/solutions/testimonials-grid-section-css-grid-and-bem-practice-9UcJzQRGUe",
@@ -132,7 +171,7 @@ export class SolutionListComponent {
       name: "Four card feature section",
       description:
         "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
-      img: "assets/four-card-feature-section/preview.png",
+      img: "assets/previews/06-four-card-feature-section.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/06-four-card-feature-section/",
       linkFM:
         "https://www.frontendmentor.io/solutions/solution-title-include-some-of-the-tools-and-techniques-you-used-to-c-nUF_1kH0gr",
@@ -145,7 +184,7 @@ export class SolutionListComponent {
       name: "Recipe page",
       description:
         "This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content.",
-      img: "assets/recipe-page/preview.png",
+      img: "assets/previews/04-recipe-page.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/04-recipe-page/",
       linkFM:
         "https://www.frontendmentor.io/solutions/recipe-page-semantic-html-css-custom-properties-and-accessible-tables-xk02taac2w",
@@ -158,7 +197,7 @@ export class SolutionListComponent {
       name: "Social links profile",
       description:
         "In this small project, you'll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!",
-      img: "assets/social-links-profile/preview.png",
+      img: "assets/previews/03-social-links-profile.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/03-social-links-profile/",
       linkFM:
         "https://www.frontendmentor.io/solutions/responsive-social-links-card-with-semantic-html-rem-units-and-css-varia-Cwauw2jcPG",
@@ -171,7 +210,7 @@ export class SolutionListComponent {
       name: "Blog preview card",
       description:
         "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
-      img: "assets/blog-preview-card/preview.png",
+      img: "assets/previews/02-blog-preview-card.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/02-blog-preview-card/",
       linkFM:
         "https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-html-css-clamp-and-local-fonts-NlR1mhHfNW",
@@ -184,7 +223,7 @@ export class SolutionListComponent {
       name: "QR code component",
       description:
         "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
-      img: "assets/qr-code-component/preview.png",
+      img: "assets/previews/01-qr-code-component-main.png",
       link: "https://tetianaaleks.github.io/fm-solutions-hub/01-qr-code-component-main/",
       linkFM:
         "https://www.frontendmentor.io/solutions/responsive-qr-code-component-using-html-css-and-flexbox-7O_PI0fTOw",
